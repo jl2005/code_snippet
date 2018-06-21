@@ -15,5 +15,6 @@ func TestMain(m *testing.M) {
             break
         }
     }
+    m.Run() // 需要用这个指定测试用例
 }
 ```
